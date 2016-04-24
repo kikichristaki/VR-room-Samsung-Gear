@@ -2,13 +2,11 @@
 -target:library
 -nowarn:0169
 -out:'Temp/Assembly-CSharp-firstpass.dll'
--r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
--r:'Assets/Plugins/Photon3Unity3D.dll'
--r:'Assets/Plugins/WebSocket/websocket-sharp.dll'
+-r:'/Applications/Unity/PlaybackEngines/MacStandaloneSupport/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'
 -r:'Assets/DFVoice/Plugins/NSpeex.dll'
--r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-r:'Assets/Plugins/Photon3Unity3D.dll'
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_3_4
 -define:UNITY_5_3
@@ -73,13 +71,6 @@
 -define:ENABLE_CLUSTERINPUT
 -define:ENABLE_WEBSOCKET_HOST
 -define:ENABLE_MONO
--define:ENABLE_PROFILER
--define:DEBUG
--define:TRACE
--define:UNITY_ASSERTIONS
--define:UNITY_EDITOR
--define:UNITY_EDITOR_64
--define:UNITY_EDITOR_OSX
 -define:CROSS_PLATFORM_INPUT
 'Assets/Plugins/WebSocket/WebSocket.cs'
 'Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs'

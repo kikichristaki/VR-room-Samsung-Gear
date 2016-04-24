@@ -154,14 +154,14 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+ <Reference Include="NSpeex">
+ <HintPath>/Users/kiki/VRroom/3Droom 2.0 2/Assets/DFVoice/Plugins/NSpeex.dll</HintPath>
+ </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>/Users/kiki/Downloads/3Droom 2.0 2/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>/Users/kiki/VRroom/3Droom 2.0 2/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>/Users/kiki/Downloads/3Droom 2.0 2/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
- </Reference>
- <Reference Include="NSpeex">
- <HintPath>/Users/kiki/Downloads/3Droom 2.0 2/Assets/DFVoice/Plugins/NSpeex.dll</HintPath>
+ <HintPath>/Users/kiki/VRroom/3Droom 2.0 2/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

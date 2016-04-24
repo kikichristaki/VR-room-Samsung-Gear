@@ -14,6 +14,7 @@
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'
+-r:'Assets/DFVoice/Plugins/NSpeex.dll'
 -r:'Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll'
 -r:'Assets/Plugins/Photon3Unity3D.dll'
 -r:'Assets/Plugins/WebSocket/websocket-sharp.dll'
@@ -21,7 +22,6 @@
 -r:'/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll'
 -r:'/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll'
 -r:'/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll'
--r:'Assets/DFVoice/Plugins/NSpeex.dll'
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_3_4
 -define:UNITY_5_3

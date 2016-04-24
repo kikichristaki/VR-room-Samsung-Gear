@@ -6,8 +6,8 @@
 -r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'
--r:'Assets/Plugins/Photon3Unity3D.dll'
 -r:'Assets/DFVoice/Plugins/NSpeex.dll'
+-r:'Assets/Plugins/Photon3Unity3D.dll'
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_3_4
 -define:UNITY_5_3

@@ -5,9 +5,9 @@
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'Assets/DFVoice/Plugins/NSpeex.dll'
 -r:'Assets/Plugins/Photon3Unity3D.dll'
 -r:'Assets/Plugins/WebSocket/websocket-sharp.dll'
--r:'Assets/DFVoice/Plugins/NSpeex.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_3_4
