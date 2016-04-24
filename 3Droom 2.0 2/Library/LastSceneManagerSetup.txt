@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/networked.unity
+  isLoaded: 1
+  isActive: 1
