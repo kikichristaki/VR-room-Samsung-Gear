@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7E0057C0-F635-A293-14E5-1CDDBCF266B9}") = "3Droom 2.0 2", "Assembly-CSharp-firstpass.csproj", "{7395D0DC-4634-D2DD-D36D-4B026CB4901C}"
+EndProject
+Project("{7E0057C0-F635-A293-14E5-1CDDBCF266B9}") = "3Droom 2.0 2", "Assembly-CSharp.csproj", "{6167BD92-A227-1B2B-6FFF-281522203E80}"
+EndProject
+Project("{7E0057C0-F635-A293-14E5-1CDDBCF266B9}") = "3Droom 2.0 2", "Assembly-CSharp-Editor.csproj", "{81C5F879-352C-383E-75F5-FD6CB4A4B7E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7395D0DC-4634-D2DD-D36D-4B026CB4901C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7395D0DC-4634-D2DD-D36D-4B026CB4901C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7395D0DC-4634-D2DD-D36D-4B026CB4901C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7395D0DC-4634-D2DD-D36D-4B026CB4901C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6167BD92-A227-1B2B-6FFF-281522203E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6167BD92-A227-1B2B-6FFF-281522203E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6167BD92-A227-1B2B-6FFF-281522203E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6167BD92-A227-1B2B-6FFF-281522203E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C5F879-352C-383E-75F5-FD6CB4A4B7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C5F879-352C-383E-75F5-FD6CB4A4B7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C5F879-352C-383E-75F5-FD6CB4A4B7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C5F879-352C-383E-75F5-FD6CB4A4B7E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

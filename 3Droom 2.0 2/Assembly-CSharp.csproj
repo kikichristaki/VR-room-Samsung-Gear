@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9FDB13F9-FA98-80D2-01D0-6C667C906A28}</ProjectGuid>
+    <ProjectGuid>{6167BD92-A227-1B2B-6FFF-281522203E80}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,6 +45,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DFVoice\Scripts\Codec\IAudioCodec.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\Codec\SpeexCodec.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\Components\TestLocalVoiceController.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\Components\UnityNetworkVoiceController.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\Components\VoiceControllerBase.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\IO\AudioClipInputDevice.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\IO\AudioInputDeviceBase.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\IO\IAudioPlayer.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\IO\MicrophoneInputDevice.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\IO\UnityAudioPlayer.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\Misc\VoicePacketWrapper.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\Utils\AudioUtils.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\Utils\BigArray.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\Utils\ChunkBuffer.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\Utils\FastList.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\Utils\TempArray.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\Utils\VoiceControllerCollection.cs" />
+     <Compile Include="Assets\DFVoice\Scripts\Utils\VoiceControllerKeyedCollection.cs" />
+     <Compile Include="Assets\DFVoice\Splash\Scripts\SplashScreen.cs" />
      <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
      <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
      <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
@@ -115,11 +134,15 @@
      <Compile Include="Assets\PhotonChatApi\ChatState.cs" />
      <Compile Include="Assets\PhotonChatApi\ChatUserStatus.cs" />
      <Compile Include="Assets\PhotonChatApi\IChatClientListener.cs" />
+     <Compile Include="Assets\Scripts\MyLocalVoiceController.cs" />
      <Compile Include="Assets\Scripts\NetworkController.cs" />
      <Compile Include="Assets\Scripts\NetworkedPlayer.cs" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
      <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\DFVoice\Plugins\OpusLicense.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\DFVoice\README.txt" />
+     <None Include="Assets\DFVoice\Plugins\NSpeexLicense.txt" />
      <None Include="Assets\Photon Unity Networking\readme.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
@@ -131,16 +154,19 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
- <Reference Include="websocket-sharp">
- <HintPath>/Users/kiki/Downloads/3Droom 2.0/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
- </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>/Users/kiki/Downloads/3Droom 2.0/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>/Users/kiki/Downloads/3Droom 2.0 2/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>/Users/kiki/Downloads/3Droom 2.0 2/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="NSpeex">
+ <HintPath>/Users/kiki/Downloads/3Droom 2.0 2/Assets/DFVoice/Plugins/NSpeex.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{CE7C1234-7F16-4803-5915-6CCCE15EFD51}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{7395D0DC-4634-D2DD-D36D-4B026CB4901C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
